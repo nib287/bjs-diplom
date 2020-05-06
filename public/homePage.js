@@ -23,6 +23,8 @@ const getExchangeRate = () => {
     });
 }
 
+getExchangeRate();
+
 setInterval(getExchangeRate, 10000);
 
 const moneyManager = new MoneyManager();
